@@ -1,0 +1,22 @@
+/* THEME: the only file to touch to re-skin the deck.
+   Colours were sampled from the INFINITY title slide (Canva template, T8.3@M9):
+   charcoal background, yellow headings and lines, white logo.
+   Replace the values below with the official brand-kit codes if they differ. */
+:root {
+  --bg:        #282828;
+  --panel:     #333331;
+  --yellow:    #E0DC76;
+  --yellow-dim:#84824F;
+  --white:     #FFFFFF;
+  --text:      #F2F2EA;
+  --soft:      #B9B9AE;
+  --line:      #5B5B4E;
+
+  /* roles */
+  --stance: var(--yellow);   /* the missing third term */
+  --agent:  var(--white);
+  --alt:    #8FC1D4;         /* second perspective, used sparingly */
+
+  --font-display: 'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif;
+  --font-body:    'Helvetica Neue', Helvetica, Arial, 'Liberation Sans', sans-serif;
+}
